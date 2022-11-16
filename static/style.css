@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Jordan";
+    src: url("../assets/images/fonts/haettenschweiler_[fr.allfont.net].ttf")
+}
+
+body {
+    background: rgb(32, 5, 102);
+    background: linear-gradient(90deg, rgba(32, 5, 102, 1) 0%, rgba(121, 9, 61, 1) 47%, rgba(180, 25, 63, 1) 100%);
+    padding: 0;
+    margin: auto;
+    font-family: 'Jordan';
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D1D1D;
+    color: #FFFFFF!important;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.header .header-buttons {
+    justify-content: center;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.header .header-buttons .header-buttons-sneakers {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .header-buttons .header-buttons-sneakers:hover {
+    color: #c2c2c2;
+}
+
+.header .header-buttons .header-buttons-team {
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.header .header-buttons .header-buttons-team:hover {
+    color: #c2c2c2;
+}
+
+.header .header-buttons .header-buttons-about {
+    color: #FFFFFF;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.header .header-buttons .header-buttons-about:hover {
+    color: #c2c2c2;
+}
+
+.header .header-buttons .header-buttons-jade {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .header-buttons .header-buttons-jade:hover {
+    color: #c2c2c2;
+}
+
+.header .header-logo-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    color: #FFFFFF!important;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title {
+    font-size: 50pt;
+    margin-bottom: 1%;
+}
+
+.container-products {
+    height: 38vh;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: raw;
+}
+
+.container-products-prev {
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.container-products-prev:hover {
+    color: #c2c2c2
+}
+
+.container-products-next {
+    color: #FFFFFF
+}
+
+.container-products-next:hover {
+    color: #c2c2c2
+}
+
+.container-description {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    width: 20%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.line::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: violet;
+}
+
+.container-button {
+    font-size: 40pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 50%;
+    text-align: center;
+    border-radius: 40%;
+    height: 10vh;
+    background-color: #1D1D1D;
+}
+
+.container-button:hover {
+    color: #c2c2c2;
+}
