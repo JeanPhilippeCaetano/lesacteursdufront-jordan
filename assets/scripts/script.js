@@ -10,7 +10,7 @@ let currentPage = 0
 const product = document.querySelector(".container-products .container-products-content")
 
 const generateDiv = (url) => {
-    const div = `<img src=${url} style="width:100%; justify-content:center;height:100%;align-items:center";margin:auto>    `
+    const div = `<img src=${url} class="container-products-image">    `
     product.innerHTML += div
 }
 
